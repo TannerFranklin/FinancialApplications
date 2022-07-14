@@ -6,6 +6,8 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
+#List of Import Libraries
+import csv
 import sys
 import fire
 import questionary
@@ -101,7 +103,6 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
-
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
@@ -109,8 +110,60 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    #Acceptance Criteria for save_csv function
+    # 1.) Given that I’m using the loan qualifier CLI, when I run the qualifier, then the tool should prompt the user to save the results as a CSV file.
+    # 2.) Given that no qualifying loans exist, when prompting a user to save a file, then the program should notify the user and exit.
+    # 3.) Given that I have a list of qualifying loans, when I’m prompted to save the results, then I should be able to opt out of saving the file.
+    # 4.) Given that I have a list of qualifying loans, when I choose to save the loans, the tool should prompt for a file path to save the file.
+    # 5.) Given that I’m using the loan qualifier CLI, when I choose to save the loans, then the tool should save the results as a CSV file.
 
+    # Check Qualifying Loan is populated & Prompt User to see if they would like a Loan Qualifier .csv file
+    if len(qualifying_loans) > 0:
+        request_prompt = questionary.text("Do you want to save the Loan Qualifier Results to a CSV File? Please input: (Yes/No)").ask()
+        request_prompt = str(request_prompt)
+
+        # Prompt User for Output File Path
+        if request_prompt == "Yes":
+            csvpath = questionary.text("Enter an output file path & include Loan_Qualifier_Output.csv at the end ").ask()
+            csvpath = Path(csvpath)
+
+            # Check File Path
+            if not csvpath.exists():
+                sys.exit(f"Unable to Find the File Path Entered: {csvpath}")
+
+            # Opt Out of File Save
+            save_prompt = questionary.text("Are you sure you want to save this file? Please input: (Yes/No)").ask()
+            save_prompt = str(save_prompt)
+
+            if save_prompt == "Yes":
+               
+                # Set the Header Row
+                csv_header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
+            
+                # Set the output file path
+                csvpath = Path(csvpath)
+
+                # Loan Qualifier CSV Output
+                with open(csvpath, 'w', newline='') as csvfile:
+                    csvwriter = csv.writer(csvfile)
+                    csvwriter.writerow(csv_header)
+
+                # Iterate through Qualifying Loans    
+                    for loan in qualifying_loans:
+                        csvwriter.writerow(loan)
+                    print("Loan_Qualifier_Output.csv Saved")
+
+            # User selects "No" exit statement
+            elif save_prompt == "No":
+                print("Exiting...")    
+
+        # User select "No" exit statement
+        elif request_prompt == "No":
+            print("Exiting...")
+
+    # Exit Prompt if there are no Qualifying Loans    
+    elif len(qualifying_loans) <=0: 
+        sys.exit("No Qualifying Loans Exist")
 
 def run():
     """The main function for running the script."""
@@ -126,7 +179,7 @@ def run():
         bank_data, credit_score, debt, income, loan_amount, home_value
     )
 
-    # Save qualifying loans
+    # Save qualifying loans & Output CSV File
     save_qualifying_loans(qualifying_loans)
 
 
