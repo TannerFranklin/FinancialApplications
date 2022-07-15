@@ -595,3 +595,22 @@
   644  git push
   645  git push
   646  git push
+  647  history 50 > terminal_history.txt
+  648  ls
+  649  git add "terminal_history.txt"
+  650  git status
+  651  git commit -m "terminal_history.txt"
+  652  git status
+  653  git push
+  654  git status
+  655  git add . 
+  656  git status
+  657  git commit -m "terminal_history.txt"
+  658  history 50 > terminal_history.txt
+  659  git status
+  660  git add.
+  661  git add .
+  662  git status
+  663  git commit .
+  664  git status
+  665  git push
