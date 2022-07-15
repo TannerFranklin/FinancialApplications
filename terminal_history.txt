@@ -1,0 +1,597 @@
+   50  cd..
+   51  cd Desktop
+   52  mkdir FinTech-Workspace
+   53  cd
+   54  cd FinTech-Workspace 
+   55  ls
+   56  cd Desktop
+   57  ls
+   58  mkdir FinTech-Workspace
+   59  ls
+   60  cd FinTech-Workspace
+   61  ls
+   62  ls Python_Project
+   63  ls
+   64  ls
+   65  ls
+   66  cd Python_Project
+   67  ls
+   68  conda activate dev
+   69  python --version
+   70  code .
+   71  cd..
+   72  cd ..
+   73  cd ..
+   74  cd ..
+   75  code .
+   76  cd Desktop
+   77  cd FinTech-Workspace
+   78  cd Python_Project
+   79  code .
+   80  code .
+   81  python Hello_Python.py
+   82  python M1L3.py
+   83  python M1L3.py
+   84  python M1L3.py
+   85  python M1L3.py
+   86  python hello_variable_world.py
+   87  cd ..
+   88  cd 01_Hello_Variable_World
+   89  ls
+   90  cd unsolved
+   91  ls
+   92  code .
+   93  python hello_variable_world.py
+   94  cd..
+   95  cd ..
+   96  cd ..
+   97  cd Python_Project
+   98  ls
+   99  python M1L3.py
+  100  python M1L3.py
+  101  python M1L3.py
+  102  python M1L3.py
+  103  python M1L3.py
+  104  python M1L3.py
+  105  cd..
+  106  cd ..
+  107  ls
+  108  cd 02_Listing_Assets
+  109  ls
+  110  cd Unsolved
+  111  ls
+  112  code .
+  113  python listing_assets.py
+  114  cd ..
+  115  cd ..
+  116  cd Python_Project
+  117  ls
+  118  python M1L3.py
+  119  python M1L3.py
+  120  python M1L3.py
+  121  python M1L3.py
+  122  python M1L3.py
+  123  cd ..
+  124  ls
+  125  cd 03_The_401k_Shuffle
+  126  ls
+  127  cd Unsolved
+  128  ls
+  129  code .
+  130  python the_401k_shuffle.py
+  131  python the_401k_shuffle.py
+  132  ls
+  133  cd ..
+  134  cd ..
+  135  ls
+  136  cd Python_Project
+  137  ls
+  138  python M1L4.py
+  139  python M1L4.py
+  140  python M1L4.py
+  141  python M1L4.py
+  142  python M1L4.py
+  143  python M1L4.py
+  144  python M1L4.py
+  145  python M1L4.py
+  146  python M1L4.py
+  147  python M1L4.py
+  148  python M1L4.py
+  149  cd ..
+  150  ls
+  151  cd 01_Conditional_Statement
+  152  ls
+  153  cd Unsolved
+  154  ls
+  155  code .
+  156  python conditional_statement.py
+  157  cd ..
+  158  cd ..
+  159  cd 02_Nested_Conditionalsls
+  160  cd 02_Nested_Conditionals
+  161  ls
+  162  cd Unsolved
+  163  ;s
+  164  ls
+  165  code .
+  166  cd ..
+  167  cd ..
+  168  ls
+  169  cd 02_Nested_Conditionals
+  170  ls
+  171  cd Unsolved
+  172  ls
+  173  code .
+  174  python nest_conditional.py
+  175  nested-conditional.py
+  176  nested_conditional.py
+  177  python nested_conditional.py
+  178  ls
+  179  python nested_conditionals.py
+  180  python nested_conditionals.py
+  181  python nested_conditionals.py
+  182  cd ..
+  183  cd ..
+  184  ls
+  185  cd 03_Split_Second_Homebuying
+  186  ls
+  187  cd Unsolved
+  188  ls
+  189  code .
+  190  python split_second_homebuying.py
+  191  python split_second_homebuying.py
+  192  python split_second_homebuying.py
+  193  python split_second_homebuying.py
+  194  cd ..
+  195  cd ..
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd ..
+  200  ls
+  201  ls
+  202  ls
+  203  cd ..
+  204  ls
+  205  cd Downloads
+  206  ls
+  207  conda deactivate
+  208  conda activate conda
+  209  conda info --envs
+  210  conda activate dev
+  211  cd ls
+  212  ls
+  213  cd ..
+  214  cd Desktop
+  215  ls
+  216  cd FinTech-Workspace
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd FinTechWorkspace
+  221  cd FinancialProgramming
+  222  l
+  223  la
+  224  ls
+  225  ls
+  226  cd Lessons
+  227  ls
+  228  ls
+  229  python M1L5.py
+  230  python --version
+  231  python M1L5.py
+  232  cd ..
+  233  ls
+  234  cd 01_A_Definitive_Buy
+  235  code .
+  236  cd ..
+  237  ls
+  238  cd 02_Returned_Goods
+  239  code .
+  240  cd ..
+  241  ls
+  242  cd 03_Split_Second_Homebuying
+  243  ls
+  244  cd unsolved
+  245  code . 
+  246  cd ..
+  247  cd solved
+  248  ls
+  249  code .
+  250  cd ..
+  251  cd ..
+  252  ls
+  253  cd 01_Racking_Up_The_Profit
+  254  cd unsolved
+  255  ls
+  256  code .
+  257  cd ..
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd 02_Pathways_to_success_Part_1
+  262  cd unsolved
+  263  ls
+  264  code .
+  265  cd ..
+  266  ls
+  267  cd Resources
+  268  ls
+  269  cp quarterly_data.csv
+  270  cd ..
+  271  cd unsolved
+  272  ls
+  273  ^[[200~for item in table_data:
+  274      ticker = item["Ticker"]
+  275      print(ticker)~\nls
+  276  cd ..
+  277  ls
+  278  cd Resources
+  279  ls
+  280  mv quarterly_data.csv
+  281  mv quarterly_data.csv ~/unsolved
+  282  ls
+  283  cd ..
+  284  ls
+  285  cd  Unsolved
+  286  ls
+  287  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  288  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  289  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  290  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  291  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  292  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  293  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  294  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  295  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  296  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  297  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  298  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  299  conda activate dev
+  300  python M1L5.py
+  301  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  302  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  303  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  304  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  305  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  306  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  307  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  308  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  309  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  310  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L5.py
+  311  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  312  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  313  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  314  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  315  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  316  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  317  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  318  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  319  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  320  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  321  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  322  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  323  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  324  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  325  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/Lessons/M1L6.py
+  326  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  327  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  328  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  329  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  330  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  331  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  332  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  333  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  334  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  335  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/FinancialProgramming/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  336  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/M2_FinancialApplications/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  337  conda activate dev
+  338  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/M2_FinancialApplications/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  339  cd ..
+  340  ls
+  341  cd FinTechWorkspace
+  342  ls
+  343  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/M2_FinancialApplications/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  344  cd M2_FinancialApplications
+  345  ls
+  346  cd 01_loan_Qualifier_Financial_Calculations
+  347  ls
+  348  cd uNSOLVED
+  349  LS
+  350  python app.py
+  351  /usr/bin/python3 /Users/tannerfranklin/Desktop/FinTechWorkspace/M2_FinancialApplications/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  352  cd .
+  353  cd..
+  354  cd ..
+  355  cd ..
+  356  ls
+  357  cd 02_Loan_Qualifier_Filtering_Data
+  358  ls
+  359  cd Unsolved
+  360  ls
+  361  python app.py
+  362  python app.py
+  363  python app.py
+  364  conda activate dev
+  365  cd Desktop
+  366  ls
+  367  cd FinTechWorkspace
+  368  ls
+  369  cd FinancialProgramming
+  370  ls
+  371  ls
+  372  cd 02_Pathways_to_Success_Part_1
+  373  ls
+  374  cd Resources
+  375  cd ..
+  376  cd Unsolved
+  377  ls
+  378  code .
+  379  cd ..
+  380  cd ..
+  381  ls
+  382  cd 03_Pathways_to_Success_Part_2
+  383  ls
+  384  cd Unresolved
+  385  cd Unresolved
+  386  ls
+  387  cd Unsolved
+  388  ls
+  389  code .
+  390  cd ..
+  391  cd ..
+  392  ls
+  393  cd 04_Automating_Equity_Rounds
+  394  ls
+  395  cd Unsolved
+  396  ls
+  397  code .
+  398  cd ..
+  399  cd Solved
+  400  code.
+  401  ls
+  402  code .
+  403  cd ..
+  404  cd ..
+  405  cd ..
+  406  ls
+  407  cd ..
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd Downloads
+  412  ls
+  413  cd Class_1_Activities-3
+  414  ls
+  415  cd 01_Stu_Python_Code_Drills
+  416  ls
+  417  cd Unsolved
+  418  ls
+  419  cd 09-csv-01
+  420  code .
+  421  python 09-csv-01
+  422  cd ..
+  423  python 09-csv-01
+  424  ls
+  425  cd 09-csv-01
+  426  ls
+  427  cd Unsolved
+  428  ls
+  429  python csv-01.py
+  430  python csv-01.py
+  431  python csv-01.py
+  432  cd ..
+  433  cd ..
+  434  cd..
+  435  ls
+  436  cd ..
+  437  cd ..
+  438  cd ..
+  439  cd ..
+  440  cd Desktop
+  441  ls
+  442  cd GitHub_Upload
+  443  ls
+  444  python loan_anaylzer.py
+  445  python loan_anaylzer.py
+  446  python loan_analyzer.py
+  447  python loan_analyzer.py
+  448  python loan_analyzer.py
+  449  python loan_analyzer.py
+  450  python loan_analyzer.py
+  451  python loan_analyzer.py
+  452  python loan_analyzer.py
+  453  python loan_analyzer.py
+  454  python loan_analyzer.py
+  455  python loan_analyzer.py
+  456  python loan_analyzer.py
+  457  python loan_analyzer.py
+  458  python loan_analyzer.py
+  459  python loan_analyzer.py
+  460  python loan_analyzer.py
+  461  python loan_analyzer.py
+  462  python loan_analyzer.py
+  463  python loan_analyzer.py
+  464  python loan_analyzer.py
+  465  python loan_analyzer.py
+  466  python loan_analyzer.py
+  467  python loan_analyzer.py
+  468  python loan_analyzer.py
+  469  python loan_analyzer.py
+  470  python loan_analyzer.py
+  471  python loan_analyzer.py
+  472  python loan_analyzer.py
+  473  python loan_analyzer.py
+  474  python loan_analyzer.py
+  475  python loan_analyzer.py
+  476  python loan_analyzer.py
+  477  python loan_analyzer.py
+  478  python loan_analyzer.py
+  479  conda --v
+  480  pip -v
+  481  pip -V
+  482  pip freeze
+  483  pip install fire
+  484  pip install questionary
+  485  cd ..
+  486  pip install fire
+  487  ls
+  488  cd FinTechWorkspace
+  489  ls
+  490  cd M2_FinancialApplications
+  491  fire --V
+  492  FIRE -v
+  493  fire -V
+  494  pip install fire
+  495  ls
+  496  python cli.py
+  497  python cli.py --pants=True
+  498  cd ..
+  499  cd ..
+  500  conda list pandas
+  501  conda list jupyterlab
+  502  jupyter lab
+  503  cd ..
+  504  ls
+  505  git config --global core.editor "Visual Studio Code"
+  506  cd Desktop
+  507  ls
+  508  cd FinTechWorkspace
+  509  ls
+  510  M1_FinancialProgramming
+  511  cd M1_FinancialProgramming
+  512  ls
+  513  git clone https://github.com/TannerFranklin/FinancialProgramming.git
+  514  git commit https://github.com/TannerFranklin/FinancialProgramming.git
+  515  git status
+  516  ls
+  517  cd FinancialProgramming
+  518  ls
+  519  cd GitHub_Upload
+  520  ls
+  521  git status
+  522  git commit Main.py
+  523  git commit -m "Main.py"
+  524  git add Main.py
+  525  git status
+  526  git commit -m "Main.py"
+  527  git status
+  528  git push
+  529  ls -al ~/.ssh
+  530  git push
+  531  git push
+  532  ls -al ~/.ssh
+  533  ssh-keygen -t rsa -b 4096 -C "tannerdfranklin@gmail.com"
+  534  eval "$(ssh-agent -s)"
+  535  ssh-add ~/.ssh/id_rsa
+  536  pbcopy < ~/.ssh/id_rsa.pub
+  537  ssh -T git@github.com
+  538  git status
+  539  git push
+  540  git push
+  541  ssh-keygen -t ed25519 -C "tannerdfranklin@gmail.com"
+  542  eval "$(ssh-agent -s)"
+  543  ~/.ssh/config
+  544  touch ~/.ssh/config
+  545  ~/.ssh/config
+  546  exec ssh-agent zsh
+  547  ~/.ssh/config
+  548  sudo -s -H
+  549  cd Desktop
+  550  ls
+  551  conda activate dev
+  552  cd FinTechWorkspace
+  553  ls
+  554  cd M2_FinancialApplications
+  555  ls
+  556  cd Start_Code
+  557  cd Starter_Code
+  558  ls
+  559  cd loan_qualifier_app
+  560  ls
+  561  python app.py
+  562  python app.py
+  563  python app.py
+  564  python app.py
+  565  python app.py
+  566  python app.py
+  567  python app.py
+  568  python app.py
+  569  python app.py
+  570  python app.py
+  571  python app.py
+  572  python app.py
+  573  python app.py
+  574  python app.py
+  575  python app.py
+  576  python app.py
+  577  python app.py
+  578  python app.py
+  579  python app.py
+  580  python app.py
+  581  python app.py
+  582  python app.py
+  583  python app.py
+  584  python app.py
+  585  python app.py
+  586  python app.py
+  587  python app.py
+  588  python app.py
+  589  python app.py
+  590  python app.py
+  591  python app.py
+  592  python app.py
+  593  python app.py
+  594  conda deactivate
+  595  cd ..
+  596  cd ..
+  597  cd ..
+  598  cd ..
+  599  cd ..
+  600  ls -al ~/.ssh
+  601  ssh-keygen -t rsa -b 4096 -C "tannerdfranklin@gmail.com"
+  602  eval "$(ssh-agent -s)"
+  603  ssh-add ~/.ssh/id_rsa
+  604  pbcopy < ~/.ssh/id_rsa.pub
+  605  git clone https://github.com/TannerFranklin/FinancialApplications
+  606  git status
+  607  ls
+  608  conda activate dev
+  609  git status
+  610  cd Desktop
+  611  ls
+  612  cd FinTechWorkspace
+  613  ls
+  614  CD M2_FinancialApplications
+  615  cd M2_FinancialApplications
+  616  ls
+  617  cd Stater_Code
+  618  cd Starter_Code
+  619  ls
+  620  git status
+  621  conda deactivate
+  622  cd ..
+  623  cd ..
+  624  cd ..
+  625  cd ..
+  626  git config --global user.tannerdfranklin@gmail.com
+  627  git config --list
+  628  cd Desktop
+  629  cd FinTechWorkspace
+  630  cd M2_Financial_Programming
+  631  cd M2_FinancialApplications
+  632  ls
+  633  git clone "https://github.com/TannerFranklin/FinancialApplications"
+  634  ls
+  635  git status
+  636  .git
+  637  cd FinancialApplications
+  638  git status
+  639  git status
+  640  git add "README.md"
+  641  git status
+  642  git commit -m "README.md"
+  643  git status
+  644  git push
+  645  git push
+  646  git push
