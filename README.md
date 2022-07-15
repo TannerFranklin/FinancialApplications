@@ -1,8 +1,2 @@
 # FinancialApplications
-Loan Qualifier CSV Output Application
-
-Starter Code Folder Contains the basic application
-
-Save_CSV Function Added to Create .CSV File with Qualifying Loans for User 
-
-Enabled Personal Access Token for Push Requirements for GitHub Repository Code Changes
+Loan Qualifier CSV Generator: Visit Start_Code/loan_qualifier_app folder to get started.

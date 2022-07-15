@@ -1,33 +1,35 @@
-# Project Title
+# Loan Qualifier CSV Generator Application
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+The Loan Qualifier CSV Generator Application was designed to be your all inclusive loan approval program. By taking into account your personal Credit Score, Monthly Debt, Monthly Income, Requested Loan Amount & Home Value you can receive a csv file for all the loans you are approved for based on your Monthly Debt to Income Ratio and Loan to Value Ratio.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This program leverages the Python programming language with a set of robust libraries including: csv, sys, fire, questionary & Path from Pathlib.
+Dependency: For accurate results from the Loan Qualifier Program you will want to insure your daily_rate_sheet.csv file is located in the data folder in your Starter_Code directory.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+For Installation you will want to use the git clone command to bring the repository onto your local machine, and once you have the Start_Code located on your local repostory you will want to navigate to the app.py file and run the command python app.py where you will be prompted for a series of input values to evaluate your qualified loans. And please note you will need to the latest version of Python and Anaconda to run this program and the library dependencies.
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+1. Git Clone Starter_Code Folder to Local Repository
+2. Navigate to app.py on your command line via cd {Path}
+3. Run python app.py and complete prompts in Loan Qualifier CSV Generator
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
-
----
+Developer: Tanner Franklin
+Email: tannerdfranklin@gmail.com
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+No License: This program is available for everyone, Happy Programming!
